@@ -1,0 +1,217 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    color: #222;
+    background-color: #f4f4f4;
+    min-width: 320px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.5;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 0;
+
+}
+
+p {
+    font-size: 0.875rem;
+    line-height: 1.2;
+}
+
+span {
+    line-height: 1.5;
+}
+
+/* Align text to center by adding this additional class */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Global */
+
+.card-wrapper {
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-wrapper-hero {
+    color: #fff;
+    background-color: #303030;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    min-width: 100px;
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    margin: 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #40BE65;
+}
+
+.portfolio-logo {
+    float: left;
+    max-height: 72px;
+}
+
+.logoImage img {
+    height: 72px;
+    width: 72px;
+}
+
+.portfolio-title {
+    text-align: right;
+}
+
+.subtitle {
+    color: #40BE65;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 16rem;
+}
+
+.intro {
+    padding: 5.5rem 1.5rem;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center top;
+    border-radius: 0.5rem;
+}
+
+main {
+    width: 100%;
+}
+
+/* Featured projects */
+.featured {
+    width: 100%;
+}
+
+.featured__project {
+    background-color: #303030;
+    color: #fff;
+    padding: 5.6rem 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    width: 15rem;
+    text-align: center;
+    height: 22rem;
+    box-sizing: border-box;
+}
+
+#project-1 {
+    background: 
+    /* top gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url(../images/animal-trading-card.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#project-2 {
+    background: 
+    /* top gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url(../images/mobile-experience-lab.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#project-3 {
+    background: 
+    /* top gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url(../images/pixel-art-maker.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.tags {
+    color: #40BE65;
+}
+
+.primary-ghost {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+.primary-ghost:hover {
+    background-color: #40BE65;
+    border-color: transparent;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #999;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.validation {
+    text-align: center;
+}
