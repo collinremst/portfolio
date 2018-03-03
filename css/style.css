@@ -6,7 +6,7 @@ body{
     min-width: 320px;
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     padding: 1rem;
 }
 
@@ -84,10 +84,12 @@ header {
     margin: 1rem 0;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #40BE65;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio-logo {
-    float: left;
+    width: 10%;
     max-height: 72px;
 }
 
@@ -98,6 +100,7 @@ header {
 
 .portfolio-title {
     text-align: right;
+    width: 90%;
 }
 
 .subtitle {
