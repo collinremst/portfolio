@@ -5,8 +5,6 @@ body{
     margin: 0 auto;
     background-color: #081C26;
     min-width: 320px;
-    display: flex;
-    flex-wrap: wrap;
     padding: 1rem;
 }
 
